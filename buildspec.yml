@@ -7,6 +7,7 @@ build:
  commands:
   - echo Build started on `date`
   - mvn test
+  - mvn compile
 post_build:
  commands:
   - echo Build completed on `date`
